@@ -1,5 +1,5 @@
 const Register = () => {
-  return <div>Register Page</div>;
+  return <div className="container mx-auto p-4">Register Page</div>;
 };
 
 export default Register;

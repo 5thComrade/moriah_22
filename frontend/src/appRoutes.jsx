@@ -1,5 +1,6 @@
 import Home from "./pages/Home";
-import Venue from "./pages/Venue";
+import About from "./pages/About";
+import Gallery from "./pages/Gallery";
 import Register from "./pages/Register";
 import Error from "./pages/Error";
 
@@ -9,8 +10,12 @@ const appRoutes = [
     component: <Home />,
   },
   {
-    path: "/venue",
-    component: <Venue />,
+    path: "/about",
+    component: <About />,
+  },
+  {
+    path: "/gallery",
+    component: <Gallery />,
   },
   {
     path: "/register",
