@@ -1,5 +1,10 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
+import {
+  AiOutlineInstagram,
+  AiOutlineYoutube,
+  AiOutlineFacebook,
+} from "react-icons/ai";
 
 const Home = () => {
   const eventDate = new Date("Oct 8, 2022 09:00:00").getTime();
@@ -69,6 +74,32 @@ const Home = () => {
         >
           REGISTER
         </NavLink>
+      </div>
+
+      <div className="absolute bottom-6 right-12 flex space-x-4 items-center">
+        <div className="bg-neutral-50 w-24 h-1"></div>
+        <a
+          href="https://www.instagram.com/smym.sty/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <AiOutlineInstagram className="w-8 h-8 text-neutral-50" />
+        </a>
+        <a
+          href="https://www.youtube.com/channel/UCviuqYeUs8nJ2eawohayCMw"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <AiOutlineYoutube className="w-8 h-8 text-neutral-50" />
+        </a>
+        <a
+          href="https://www.facebook.com/smym.sty/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <AiOutlineFacebook className="w-8 h-8 text-neutral-50" />
+        </a>
+        <div className="bg-neutral-50 w-8 h-1"></div>
       </div>
     </div>
   );
