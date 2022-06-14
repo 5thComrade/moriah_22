@@ -2,15 +2,26 @@ import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 
 const Home = () => {
-  const [days, setDays] = useState(0);
-  const [hours, setHours] = useState(0);
-  const [minutes, setMinutes] = useState(0);
-  const [seconds, setSeconds] = useState(0);
   const eventDate = new Date("Oct 8, 2022 09:00:00").getTime();
+  let now = new Date().getTime();
+  let distance = eventDate - now;
+
+  const [days, setDays] = useState(
+    Math.floor(distance / (1000 * 60 * 60 * 24))
+  );
+  const [hours, setHours] = useState(
+    Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))
+  );
+  const [minutes, setMinutes] = useState(
+    Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60))
+  );
+  const [seconds, setSeconds] = useState(
+    Math.floor((distance % (1000 * 60)) / 1000)
+  );
 
   setInterval(function () {
-    let now = new Date().getTime();
-    let distance = eventDate - now;
+    now = new Date().getTime();
+    distance = eventDate - now;
 
     let days = Math.floor(distance / (1000 * 60 * 60 * 24));
     let hours = Math.floor(
