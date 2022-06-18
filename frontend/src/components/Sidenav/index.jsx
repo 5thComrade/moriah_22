@@ -1,8 +1,19 @@
 import { NavLink } from "react-router-dom";
+import { useDispatch } from "react-redux";
+import { toggleHamburgerButton } from "../../store/app/actions";
 
 const Sidenav = () => {
+  const dispatch = useDispatch();
+
+  function closeSideBarAfterNavigation() {
+    dispatch(toggleHamburgerButton());
+  }
+
   return (
-    <div className="absolute right-0 w-3/4 p-4 h-3/4 bg-neutral-900 flex flex-col space-y-9 items-center">
+    <div
+      className="absolute right-0 top-0 w-3/4 px-4 py-24 h-full border bg-neutral-900 flex flex-col space-y-9 items-center"
+      onClick={closeSideBarAfterNavigation}
+    >
       <NavLink
         to="/"
         className={({ isActive }) =>

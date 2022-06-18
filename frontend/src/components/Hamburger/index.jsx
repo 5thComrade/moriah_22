@@ -11,7 +11,7 @@ const Hamburger = () => {
   }
 
   return (
-    <div className="plates 3xl:hidden">
+    <div className="plates absolute right-4 z-10 3xl:hidden">
       <div
         className={showSideBar ? "plate plate2 active" : "plate plate2"}
         onClick={handleBurgerClick}
