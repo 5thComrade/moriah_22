@@ -11,7 +11,7 @@ const Sidenav = () => {
 
   return (
     <div
-      className="absolute right-0 top-0 w-3/4 px-4 py-24 h-full bg-neutral-900 flex flex-col space-y-9 items-center"
+      className="absolute right-0 top-0 z-20 w-3/4 px-4 py-24 h-full bg-neutral-900 flex flex-col space-y-9 items-center"
       onClick={closeSideBarAfterNavigation}
     >
       <NavLink

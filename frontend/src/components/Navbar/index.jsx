@@ -4,7 +4,7 @@ import logo from "../../assets/icons/logo.svg";
 
 const NavBar = () => {
   return (
-    <div className="container mx-auto p-4">
+    <div className="container relative z-30 mx-auto p-4">
       <div className="flex justify-between items-center">
         <NavLink to="/">
           <img
