@@ -7,7 +7,7 @@ import {
 } from "react-icons/ai";
 
 const Home = () => {
-  const eventDate = new Date("Oct 8, 2022 09:00:00").getTime();
+  const eventDate = new Date("Nov 26, 2022 09:00:00").getTime();
   let now = new Date().getTime();
   let distance = eventDate - now;
 
@@ -47,7 +47,7 @@ const Home = () => {
   return (
     <div className="container h-full mx-auto p-4">
       <div className="text-5xl text-center">MORIAH '22</div>
-
+      <div className="text-2xl text-center mt-4">11th Annual Youth Retreat</div>
       <div className="flex flex-row justify-center mt-20 space-x-9">
         <div className="flex flex-col items-center">
           <div className="text-4xl">{days}</div>
