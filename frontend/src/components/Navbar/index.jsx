@@ -15,6 +15,41 @@ const NavBar = () => {
         </NavLink>
 
         <Hamburger />
+
+        <div className="hidden space-x-16 3xl:block">
+          <NavLink
+            to="/"
+            className={({ isActive }) =>
+              isActive ? "text-xl border-b-4" : "text-xl"
+            }
+          >
+            Home
+          </NavLink>
+          <NavLink
+            to="/about"
+            className={({ isActive }) =>
+              isActive ? "text-xl border-b-4" : "text-xl"
+            }
+          >
+            About
+          </NavLink>
+          <NavLink
+            to="/gallery"
+            className={({ isActive }) =>
+              isActive ? "text-xl border-b-4" : "text-xl"
+            }
+          >
+            Gallery
+          </NavLink>
+          <NavLink
+            to="/register"
+            className={({ isActive }) =>
+              isActive ? "text-xl border-b-4" : "text-xl"
+            }
+          >
+            Register
+          </NavLink>
+        </div>
       </div>
     </div>
   );

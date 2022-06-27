@@ -46,31 +46,33 @@ const Home = () => {
 
   return (
     <div className="container h-full mx-auto p-4">
-      <div className="text-5xl text-center">MORIAH '22</div>
-      <div className="text-2xl text-center mt-4">11th Annual Youth Retreat</div>
+      <div className="text-5xl text-center 3xl:text-6xl">MORIAH '22</div>
+      <div className="text-2xl text-center mt-4 3xl:text-3xl">
+        11th Annual Youth Retreat
+      </div>
       <div className="flex flex-row justify-center mt-20 space-x-9">
         <div className="flex flex-col items-center">
-          <div className="text-4xl">{days}</div>
-          <div className="text-base">DAYS</div>
+          <div className="text-4xl 3xl:text-5xl">{days}</div>
+          <div className="text-base 3xl:text-xl">DAYS</div>
         </div>
         <div className="flex flex-col items-center">
-          <div className="text-4xl">{hours}</div>
-          <div className="text-base">HRS</div>
+          <div className="text-4xl 3xl:text-5xl">{hours}</div>
+          <div className="text-base 3xl:text-xl">HRS</div>
         </div>
         <div className="flex flex-col items-center">
-          <div className="text-4xl">{minutes}</div>
-          <div className="text-base">MINS</div>
+          <div className="text-4xl 3xl:text-5xl">{minutes}</div>
+          <div className="text-base 3xl:text-xl">MINS</div>
         </div>
         <div className="flex flex-col items-center">
-          <div className="text-4xl">{seconds}</div>
-          <div className="text-base">SECS</div>
+          <div className="text-4xl 3xl:text-5xl">{seconds}</div>
+          <div className="text-base 3xl:text-xl">SECS</div>
         </div>
       </div>
 
       <div className="flex justify-center mt-10">
         <NavLink
           to="/register"
-          className="text-neutral-900 bg-neutral-50 py-3 px-8 rounded-lg"
+          className="text-neutral-900 bg-neutral-50 py-3 px-8 rounded-lg 3xl:py-5 3xl:px-12"
         >
           REGISTER
         </NavLink>

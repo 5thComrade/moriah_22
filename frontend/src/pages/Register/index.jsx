@@ -34,7 +34,7 @@ const Register = () => {
             <FaRupeeSign className="w-4 h-4 text-neutral-50" />
             <p className="text-base">Registration Fee</p>
           </div>
-          <div className="col-span-2">200 / person</div>
+          <div className="col-span-2">₹200 per person</div>
         </div>
         <div className="mb-4 grid grid-cols-3 gap-3">
           <div className="flex items-center space-x-2">
@@ -42,7 +42,7 @@ const Register = () => {
             <p className="text-base">Registration Form</p>
           </div>
           <div className="col-span-2">
-            You will be re-direct to an external form to complete the
+            You will be re-directed to an external form to complete the
             registration.
           </div>
         </div>
@@ -52,13 +52,12 @@ const Register = () => {
             <p className="text-base">Help</p>
           </div>
           <div className="col-span-2">
-            Have any queries? Please reach out to us,{" "}
-            <a href="tel:886-769-2881">886-769-2881</a>
+            For queries, Phone: <a href="tel:886-769-2881">886-769-2881</a>
           </div>
         </div>
       </section>
 
-      <div className="mt-10">
+      <div className="flex justify-center mt-6">
         <a
           href=""
           target="_blank"
