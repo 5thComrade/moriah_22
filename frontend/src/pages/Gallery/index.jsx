@@ -49,6 +49,7 @@ const Gallery = () => {
               alt={item.description}
               loading="lazy"
               onClick={() => setImageSelectedIndex(index)}
+              className="w-full h-full object-fill"
             />
           );
         })}
