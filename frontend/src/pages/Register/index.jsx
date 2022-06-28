@@ -12,7 +12,7 @@ const Register = () => {
         <div className="text-3xl 3xl:text-4xl">Register</div>
       </div>
 
-      <section>
+      <section className="mt-8">
         <div className="mb-4 grid grid-cols-3 gap-3">
           <div className="flex items-center space-x-2">
             <BsFillCalendarDayFill className="w-4 h-4 text-neutral-50" />
