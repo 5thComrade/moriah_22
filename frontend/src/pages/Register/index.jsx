@@ -2,6 +2,7 @@ import { BsFillCalendarDayFill } from "react-icons/bs";
 import { ImLocation } from "react-icons/im";
 import { FaRupeeSign } from "react-icons/fa";
 import { FiExternalLink, FiHelpCircle } from "react-icons/fi";
+import { BiTimeFive } from "react-icons/bi";
 
 const Register = () => {
   return (
@@ -18,6 +19,13 @@ const Register = () => {
             <p className="text-base">Date</p>
           </div>
           <div className="col-span-2">Nov 26 - Nov 27, 2022</div>
+        </div>
+        <div className="mb-4 grid grid-cols-3 gap-3">
+          <div className="flex items-center space-x-2">
+            <BiTimeFive className="w-4 h-4 text-neutral-50" />
+            <p className="text-base">Time</p>
+          </div>
+          <div className="col-span-2">9:00AM - 8:00PM on both the days.</div>
         </div>
         <div className="mb-4 grid grid-cols-3 gap-3">
           <div className="flex items-center space-x-2">

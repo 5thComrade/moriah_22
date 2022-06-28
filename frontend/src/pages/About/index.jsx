@@ -29,7 +29,7 @@ const About = () => {
         src="https://cdn.jsdelivr.net/gh/5thComrade/moriah_meet/bishop_3.jfif"
         alt="Mar Sebastian Adayanthrath (Bishop, Diocese of
         Mandya)"
-        className="w-80 h-80 mx-auto 3xl:mx-0"
+        className="w-80 h-80 mt-4 mx-auto 3xl:mx-0"
       />
       <p className="text-xs text-center text-gray-400 mt-2 3xl:text-start">
         Mar Sebastian Adayanthrath (Bishop, Diocese of Mandya)
