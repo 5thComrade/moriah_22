@@ -10,7 +10,7 @@ const About = () => {
         <br />
         <br />
         In Abraham's journey to Moriah we don't just see the epitome of faith
-        and obedience, but we also see God. A Gd who would not stop at anything
+        and obedience, but we also see God. A God who would not stop at anything
         for our salvation, a God who would sacrifice his only begotten son for
         our sake.
         <br />
