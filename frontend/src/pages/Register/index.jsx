@@ -38,13 +38,13 @@ const Register = () => {
             <br /> St. Thomas Forane Church, Dharmaram
           </div>
         </div>
-        <div className="mb-4 grid grid-cols-3 gap-3">
+        {/* <div className="mb-4 grid grid-cols-3 gap-3">
           <div className="flex items-center space-x-2">
             <FaRupeeSign className="w-4 h-4 text-neutral-50" />
             <p className="text-base">Registration Fee</p>
           </div>
           <div className="col-span-2">₹200 per person</div>
-        </div>
+        </div> */}
         <div className="mb-4 grid grid-cols-3 gap-3">
           <div className="flex items-center space-x-2">
             <FiExternalLink className="w-4 h-4 text-neutral-50" />
@@ -72,22 +72,27 @@ const Register = () => {
             <p className="text-base">Chat</p>
           </div>
           <div className="col-span-2">
-            <a href="https://wa.me/8867692881" target="_blank" rel="noreferrer">
-              <AiOutlineWhatsApp className="w-6 h-6 text-neutral-50" />
+            <a
+              href="https://wa.me/+918867692881"
+              target="_blank"
+              rel="noreferrer"
+              className="flex items-center"
+            >
+              WhatsApp Us <AiOutlineWhatsApp className="text-neutral-50 inline w-4 h-4 ml-1" />
             </a>
           </div>
         </div>
       </section>
 
       <div className="flex justify-center mt-6">
-        <a
-          href=""
-          target="_blank"
-          rel="noreferrer"
-          className="text-neutral-900 bg-neutral-50 py-3 px-8 rounded-lg"
+        <div
+          // href=""
+          // target="_blank"
+          // rel="noreferrer"
+          className="text-neutral-500 bg-gray-300 py-3 px-8 rounded-lg"
         >
-          REGISTER NOW
-        </a>
+          REGISTRATION NOT OPEN
+        </div>
       </div>
     </section>
   );
