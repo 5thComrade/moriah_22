@@ -51,22 +51,28 @@ const Home = () => {
         11th Annual Youth Retreat
       </div>
       <div className="flex flex-row justify-center mt-20 space-x-9">
-        <div className="flex flex-col items-center">
-          <div className="text-4xl 3xl:text-5xl">{days}</div>
-          <div className="text-base 3xl:text-xl">DAYS</div>
-        </div>
-        <div className="flex flex-col items-center">
-          <div className="text-4xl 3xl:text-5xl">{hours}</div>
-          <div className="text-base 3xl:text-xl">HRS</div>
-        </div>
-        <div className="flex flex-col items-center">
-          <div className="text-4xl 3xl:text-5xl">{minutes}</div>
-          <div className="text-base 3xl:text-xl">MINS</div>
-        </div>
-        <div className="flex flex-col items-center">
-          <div className="text-4xl 3xl:text-5xl">{seconds}</div>
-          <div className="text-base 3xl:text-xl">SECS</div>
-        </div>
+        {distance > 0 ? (
+          <>
+            <div className="flex flex-col items-center">
+              <div className="text-4xl 3xl:text-5xl">{days}</div>
+              <div className="text-base 3xl:text-xl">DAYS</div>
+            </div>
+            <div className="flex flex-col items-center">
+              <div className="text-4xl 3xl:text-5xl">{hours}</div>
+              <div className="text-base 3xl:text-xl">HRS</div>
+            </div>
+            <div className="flex flex-col items-center">
+              <div className="text-4xl 3xl:text-5xl">{minutes}</div>
+              <div className="text-base 3xl:text-xl">MINS</div>
+            </div>
+            <div className="flex flex-col items-center">
+              <div className="text-4xl 3xl:text-5xl">{seconds}</div>
+              <div className="text-base 3xl:text-xl">SECS</div>
+            </div>
+          </>
+        ) : (
+          <div className="text-4xl 3xl:text-5xl">Event is now live!</div>
+        )}
       </div>
 
       <div className="flex justify-center mt-10">

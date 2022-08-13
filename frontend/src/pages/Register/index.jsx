@@ -3,6 +3,7 @@ import { ImLocation } from "react-icons/im";
 import { FaRupeeSign } from "react-icons/fa";
 import { FiExternalLink, FiHelpCircle } from "react-icons/fi";
 import { BiTimeFive } from "react-icons/bi";
+import { AiOutlineWhatsApp, AiFillWechat } from "react-icons/ai";
 
 const Register = () => {
   return (
@@ -32,7 +33,10 @@ const Register = () => {
             <ImLocation className="w-4 h-4 text-neutral-50" />
             <p className="text-base">Location</p>
           </div>
-          <div className="col-span-2">St. Thomas Forane Church, Dharmaram</div>
+          <div className="col-span-2">
+            St. Thomas Diocesan Pilgrim Center.
+            <br /> St. Thomas Forane Church, Dharmaram
+          </div>
         </div>
         <div className="mb-4 grid grid-cols-3 gap-3">
           <div className="flex items-center space-x-2">
@@ -57,7 +61,20 @@ const Register = () => {
             <p className="text-base">Help</p>
           </div>
           <div className="col-span-2">
-            For queries, Phone: <a href="tel:886-769-2881">886-769-2881</a>
+            For queries, Phone: <a href="tel:886-769-2881">886-769-2881</a>,
+            <br />
+            <a href="tel:725-990-9019">725-990-9019</a>
+          </div>
+        </div>
+        <div className="mb-4 grid grid-cols-3 gap-3">
+          <div className="flex items-center space-x-2">
+            <AiFillWechat className="w-4 h-4 text-neutral-50" />
+            <p className="text-base">Chat</p>
+          </div>
+          <div className="col-span-2">
+            <a href="https://wa.me/8867692881" target="_blank" rel="noreferrer">
+              <AiOutlineWhatsApp className="w-6 h-6 text-neutral-50" />
+            </a>
           </div>
         </div>
       </section>
