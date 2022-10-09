@@ -88,7 +88,7 @@ const About = () => {
         <div className="text-3xl 3xl:text-4xl">Organized By</div>
       </div>
       <div className="text-base mt-4 text-neutral-50 3xl:text-xl">
-        SMYM St. Thomas Youth(STY)
+        SMYM St. Thomas Youth
       </div>
       <div className="flex space-x-4 justify-center mt-4 3xl:justify-start">
         <img

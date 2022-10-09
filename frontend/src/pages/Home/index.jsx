@@ -46,7 +46,7 @@ const Home = () => {
 
   return (
     <div className="container h-full mx-auto p-4">
-      <div className="text-5xl text-center 3xl:text-6xl">MORIAH '22</div>
+      <div className="text-5xl text-center 3xl:text-6xl">MORIAH MEET '22</div>
       <div className="text-2xl text-center mt-4 3xl:text-3xl">
         11th Annual Youth Retreat
       </div>
