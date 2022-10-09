@@ -38,13 +38,13 @@ const Register = () => {
             <br /> St. Thomas Forane Church, Dharmaram
           </div>
         </div>
-        {/* <div className="mb-4 grid grid-cols-3 gap-3">
+        <div className="mb-4 grid grid-cols-3 gap-3">
           <div className="flex items-center space-x-2">
             <FaRupeeSign className="w-4 h-4 text-neutral-50" />
             <p className="text-base">Registration Fee</p>
           </div>
-          <div className="col-span-2">₹200 per person</div>
-        </div> */}
+          <div className="col-span-2">₹300 per person</div>
+        </div>
         <div className="mb-4 grid grid-cols-3 gap-3">
           <div className="flex items-center space-x-2">
             <FiExternalLink className="w-4 h-4 text-neutral-50" />
@@ -63,7 +63,11 @@ const Register = () => {
           <div className="col-span-2">
             For queries, Phone: <a href="tel:886-769-2881">886-769-2881</a>,
             <br />
-            <a href="tel:725-990-9019">725-990-9019</a>
+            <a href="tel:725-990-9019">725-990-9019</a>,
+            <br />
+            <a href="tel:725-990-9019">741-194-6141</a>,
+            <br />
+            <a href="tel:725-990-9019">636-259-9652</a>
           </div>
         </div>
         <div className="mb-4 grid grid-cols-3 gap-3">
@@ -78,7 +82,8 @@ const Register = () => {
               rel="noreferrer"
               className="flex items-center"
             >
-              WhatsApp Us <AiOutlineWhatsApp className="text-neutral-50 inline w-4 h-4 ml-1" />
+              WhatsApp Us{" "}
+              <AiOutlineWhatsApp className="text-neutral-50 inline w-4 h-4 ml-1" />
             </a>
           </div>
         </div>
