@@ -65,9 +65,9 @@ const Register = () => {
             <br />
             <a href="tel:725-990-9019">725-990-9019</a>,
             <br />
-            <a href="tel:725-990-9019">741-194-6141</a>,
+            <a href="tel:741-194-6141">741-194-6141</a>,
             <br />
-            <a href="tel:725-990-9019">636-259-9652</a>
+            <a href="tel:636-259-9652">636-259-9652</a>
           </div>
         </div>
         <div className="mb-4 grid grid-cols-3 gap-3">
