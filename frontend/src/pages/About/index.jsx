@@ -9,10 +9,13 @@ const About = () => {
         "Go to the land of Moriah, and offer him there." - Genesis 22:2
         <br />
         <br />
-        In Abraham's journey to Moriah we don't just see the epitome of faith
-        and obedience, but we also see God. A God who would not stop at anything
-        for our salvation, a God who would sacrifice his only begotten son for
-        our sake.
+        When we look into Abraham's journey to Moriah, we not only see the
+        epitome of faith and obedience, but also we see God. A God, who will not
+        stop at anything for us to attain salvation. A God, who will sacrifice
+        His only begotten Son for the sake of the whole world. A God, who will
+        not give up on us, no matter how far we go from Him. And so in the
+        middle of all the hustle and bustle of our lives, let us pause and
+        retreat ourselves to Moriah.
         <br />
         So in the middle of the hustle and bustle of our lives, let's pause and
         retreat to Moriah.
@@ -40,9 +43,15 @@ const About = () => {
         <div className="text-3xl 3xl:text-4xl">Led By</div>
       </div>
       <div className="text-base mt-4 text-neutral-50 3xl:text-xl">
-        This year's retreat is led by Fr Jinu Pallipatt - Retreat Preacher. Fr
-        Jinu is a spiritual leader who reaches out to the laity through his
-        thought provoking speeches.
+        This year's retreat is led by the most loving Fr Jinu Pallipatt -
+        Retreat Preacher. Fr Jinu is a spiritual leader who reaches out to the
+        laity through his thought provoking speeches.
+        <br />
+        His sweet tone of learning the gospel and teaching the significance of
+        the Word of the Lord in layman's words is always heartwarming and
+        pleasant in the ears experience. May the Lord guide Fr. Jinu Pallipat
+        throughout this retreat and touch many hearts who longs to be loved and
+        heard.
         <br />
         <br />
         {/* He uses social media platforms like{" "}

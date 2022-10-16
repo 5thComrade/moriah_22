@@ -26,7 +26,10 @@ const Register = () => {
             <BiTimeFive className="w-4 h-4 text-neutral-50" />
             <p className="text-base">Time</p>
           </div>
-          <div className="col-span-2">9:00AM - 8:00PM on both the days.</div>
+          <div className="col-span-2">
+            Saturday 2:00PM - 8:00PM <br />
+            Sunday 8:00AM - 8:00PM
+          </div>
         </div>
         <div className="mb-4 grid grid-cols-3 gap-3">
           <div className="flex items-center space-x-2">
@@ -43,7 +46,7 @@ const Register = () => {
             <FaRupeeSign className="w-4 h-4 text-neutral-50" />
             <p className="text-base">Registration Fee</p>
           </div>
-          <div className="col-span-2">₹300 per person</div>
+          <div className="col-span-2">₹250 per person</div>
         </div>
         <div className="mb-4 grid grid-cols-3 gap-3">
           <div className="flex items-center space-x-2">
@@ -61,7 +64,7 @@ const Register = () => {
             <p className="text-base">Help</p>
           </div>
           <div className="col-span-2">
-            For queries, Phone: <a href="tel:886-769-2881">886-769-2881</a>,
+            <a href="tel:886-769-2881">886-769-2881</a>,
             <br />
             <a href="tel:725-990-9019">725-990-9019</a>,
             <br />
@@ -90,14 +93,14 @@ const Register = () => {
       </section>
 
       <div className="flex justify-center mt-6">
-        <div
-          // href=""
-          // target="_blank"
-          // rel="noreferrer"
-          className="text-neutral-500 bg-gray-300 py-3 px-8 rounded-lg"
+        <a
+          href="https://forms.gle/zFBFkrHTPdvN4uDRA"
+          target="_blank"
+          rel="noreferrer"
+          className="text-black bg-gray-300 py-3 px-8 rounded-lg"
         >
-          REGISTRATION NOT OPEN
-        </div>
+          REGISTER NOW
+        </a>
       </div>
     </section>
   );

@@ -2,6 +2,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Gallery from "./pages/Gallery";
 import Register from "./pages/Register";
+import Contribution from "./pages/Contribution";
 import Error from "./pages/Error";
 
 const appRoutes = [
@@ -20,6 +21,10 @@ const appRoutes = [
   {
     path: "/register",
     component: <Register />,
+  },
+  {
+    path: "/contribute",
+    component: <Contribution />,
   },
   {
     path: "*",

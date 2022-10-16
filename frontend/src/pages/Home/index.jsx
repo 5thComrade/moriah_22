@@ -84,6 +84,12 @@ const Home = () => {
         </NavLink>
       </div>
 
+      <div className="flex justify-center mt-10">
+        <NavLink to="/contribute" className="text-neutral-50 border border-neutral-50 rounded-lg py-2 px-6 tracking-wide">
+          Contribute
+        </NavLink>
+      </div>
+
       <div className="absolute bottom-6 right-12 flex space-x-4 items-center">
         <div className="bg-neutral-50 w-24 h-1"></div>
         <a
