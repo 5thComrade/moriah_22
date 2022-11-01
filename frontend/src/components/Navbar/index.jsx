@@ -49,6 +49,14 @@ const NavBar = () => {
           >
             Register
           </NavLink>
+          <NavLink
+            to="/prayer"
+            className={({ isActive }) =>
+              isActive ? "text-xl border-b-4" : "text-xl"
+            }
+          >
+            Prayer
+          </NavLink>
         </div>
       </div>
     </div>

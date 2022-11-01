@@ -46,6 +46,14 @@ const Sidenav = () => {
       >
         Register
       </NavLink>
+      <NavLink
+        to="/prayer"
+        className={({ isActive }) =>
+          isActive ? "text-4xl border-b-4" : "text-4xl"
+        }
+      >
+        Prayer
+      </NavLink>
     </div>
   );
 };

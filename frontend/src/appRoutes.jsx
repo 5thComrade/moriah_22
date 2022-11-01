@@ -3,6 +3,7 @@ import About from "./pages/About";
 import Gallery from "./pages/Gallery";
 import Register from "./pages/Register";
 import Contribution from "./pages/Contribution";
+import Prayer from "./pages/Prayer";
 import Error from "./pages/Error";
 
 const appRoutes = [
@@ -25,6 +26,10 @@ const appRoutes = [
   {
     path: "/contribute",
     component: <Contribution />,
+  },
+  {
+    path: "/prayer",
+    component: <Prayer />,
   },
   {
     path: "*",

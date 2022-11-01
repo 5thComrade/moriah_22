@@ -7,7 +7,7 @@ import {
 } from "react-icons/ai";
 
 const Home = () => {
-  const eventDate = new Date("Nov 26, 2022 09:00:00").getTime();
+  const eventDate = new Date("Nov 26, 2022 14:00:00").getTime();
   let now = new Date().getTime();
   let distance = eventDate - now;
 
@@ -85,7 +85,10 @@ const Home = () => {
       </div>
 
       <div className="flex justify-center mt-10">
-        <NavLink to="/contribute" className="text-neutral-50 border border-neutral-50 rounded-lg py-2 px-6 tracking-wide">
+        <NavLink
+          to="/contribute"
+          className="text-neutral-50 border border-neutral-50 rounded-lg py-2 px-6 tracking-wide"
+        >
           Contribute
         </NavLink>
       </div>
