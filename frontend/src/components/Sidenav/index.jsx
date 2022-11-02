@@ -39,20 +39,20 @@ const Sidenav = () => {
         Gallery
       </NavLink>
       <NavLink
+        to="/prayer"
+        className={({ isActive }) =>
+          isActive ? "text-4xl border-b-4" : "text-4xl"
+        }
+      >
+        Intercession
+      </NavLink>
+      <NavLink
         to="/register"
         className={({ isActive }) =>
           isActive ? "text-4xl border-b-4" : "text-4xl"
         }
       >
         Register
-      </NavLink>
-      <NavLink
-        to="/prayer"
-        className={({ isActive }) =>
-          isActive ? "text-4xl border-b-4" : "text-4xl"
-        }
-      >
-        Prayer
       </NavLink>
     </div>
   );
